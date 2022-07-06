@@ -28,6 +28,12 @@ const handleUserInput = function () {
     if (key === 'd') {
       connection.write("Move: right")
     }
+    if (key === '1') {
+      connection.write("Say: hey")
+    }
+    if (key === '2') {
+      connection.write("Say: hf")
+    }
     
   });
 };
